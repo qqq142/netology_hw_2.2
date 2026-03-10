@@ -11,10 +11,11 @@ int main(int argc, char *argv[])
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    std::cout << "Ââåäèòå ñëîâî: " << std::flush;
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»Ð¾Ð²Ð¾: " << std::flush;
     std::string input{};
     std::getline (std::cin >> std::ws, input);
-    std::cout << "Âû ââåëè: " << input << std::endl;
+    std::cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸: " << input << std::endl;
 
     return 0;
 }
+
